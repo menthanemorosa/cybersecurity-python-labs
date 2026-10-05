@@ -1,0 +1,4 @@
+URL,Security Score,Grade,Status,Missing Headers,Software Leaks
+https://secure.example.com,90,A,PASS,,X-Powered-By: Express
+https://legacy.example.com,0,F,FAIL,Strict-Transport-Security; Content-Security-Policy; X-Frame-Options; X-Content-Type-Options,Server: Apache/2.4.41 (Ubuntu); X-Powered-By: PHP/7.4.3
+https://portal.example.com,75,B,WARN,X-Frame-Options,Server: nginx/1.18.0
